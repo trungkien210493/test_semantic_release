@@ -1,8 +1,9 @@
 {
-    "branches": [{name: "main"}, 
-		{name: "Developer", prerelease: "Developer"}, 
-		{name: "Devops", prerelease: "Devops"}, 
-		{name: "Network", prerelease: "Network"}, 
+    "branches": ["main", 
+		{name: "Developer", prerelease: true}, 
+		{name: "Devops", prerelease: true}, 
+		{name: "Network", prerelease: true},
+		{name: "svtech_airflow", prerelease: true}, 
     ],
     "repositoryUrl": "https://github.com/trungkien210493/test_semantic_release.git",
     "plugins": [
