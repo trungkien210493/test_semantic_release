@@ -1,5 +1,5 @@
 {
-    "branches": ["main", "Developer", "Devops"],
+    "branches": ["main", {"name": "Developer", "prerelease": true}, {"name": "Devops", "prerelease": true}, {"name": "Network", "prerelease": true}, {"name": "svtech_airflow", "prerelease": true}],
     "repositoryUrl": "https://github.com/trungkien210493/test_semantic_release.git",
     "plugins": [
         "@semantic-release/commit-analyzer",
