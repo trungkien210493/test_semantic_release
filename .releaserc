@@ -3,7 +3,6 @@
 		{name: "Developer", prerelease: "Developer"}, 
 		{name: "Devops", prerelease: "Devops"}, 
 		{name: "Network", prerelease: "Network"}, 
-		{name: "svtech_airflow", prerelease: "svtech_airflow"},
     ],
     "repositoryUrl": "https://github.com/trungkien210493/test_semantic_release.git",
     "plugins": [
