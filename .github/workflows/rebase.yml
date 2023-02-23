@@ -3,7 +3,7 @@ name: Automatic Rebase onto all branches
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   rebaseDeveloper:
     if: github.branch != 'octo-org/octo-repo-prod'
